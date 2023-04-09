@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <!-- <script type="module" src="./index.js"></script> -->
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <!-- <include src="./partials/example.html"></include> -->
+
+    <div>
+      <button class="add-to-watched">Add to watched</button>
+      <button class="add-to-queue add">Add to queue</button>
+      <button class="remove-from-queue">Remove from queue</button>
+      <button class="remove-from-watched">Remove from watched</button>
+    </div>
+
+    <div class="flex-container">
+      <div class="watched-container"></div>
+      <div class="queue-container"></div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

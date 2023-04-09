@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  background-image: url('../images/abstract-background-with-red-lines\ 1.jpg');
+  margin: 0 auto;
+  width: 1216px;
+  height: 316px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.header a {
+  display: block;
+  background-color: black;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffff;
+
+  padding: 14px 32px;
+}
